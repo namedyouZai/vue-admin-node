@@ -1,9 +1,7 @@
 {
-  "name": "vueadmin",
+  "name": "admin",
   "version": "1.0.5",
-  "description": "vue admin project",
-  "author": "taylor <709161610@qq.com>",
-  "license": "MIT",
+  "description": "bi ye she ji",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

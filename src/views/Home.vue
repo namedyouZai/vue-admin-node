@@ -1,13 +1,13 @@
 <template>
 	<el-row class="container">
 		<el-col :span="24" class="header">
-			<el-col :span="10" class="logo" :class="collapsed?'logo-collapse-width':'logo-width'">
+			<el-col :span="8" class="logo" :class="collapsed?'logo-collapse-width':'logo-width'">
 				{{collapsed?'':sysName}}
 			</el-col>
-			<el-col :span="10">
-				<div class="tools" @click.prevent="collapse">
-					<i class="fa fa-align-justify"></i>
-				</div>
+			<el-col :span="12">
+				<!--<div class="tools" @click.prevent="collapse">-->
+					<!--<i class="fa fa-align-justify"></i>-->
+				<!--</div>-->
 			</el-col>
 			<el-col :span="4" class="userinfo">
 				<el-dropdown trigger="hover">
@@ -169,7 +169,6 @@
 				}
 			}
 			.logo {
-				//width:230px;
 				height:60px;
 				font-size: 22px;
 				padding-left:20px;
@@ -187,7 +186,7 @@
 				}
 			}
 			.logo-width{
-				width:230px;
+				width:180px;
 			}
 			.logo-collapse-width{
 				width:60px
@@ -237,8 +236,8 @@
 				width: 60px;
 			}
 			.menu-expanded{
-				flex:0 0 230px;
-				width: 230px;
+				flex:0 0 180px;
+				width: 180px;
 			}
 			.content-container {
 				// background: #f1f2f7;
